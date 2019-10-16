@@ -1,0 +1,35 @@
+﻿$variable1 = '123abc';
+$variable2 = null;
+$variable3 = '';
+$variable4 = 'abc123';
+$variable5 = 'null';
+
+
+Biến $variable1 sau khi ép sang int có giá trị = 123
+Biến $variable1 sau khi ép sang float có giá trị = 123
+Biến $variable1 sau khi ép sang string có giá trị = 123abc
+Biến $variable1 sau khi ép sang boolean có giá trị = true
+
+
+Biến $variable2 sau khi ép sang int có giá trị = 0
+Biến $variable2 sau khi ép sang float có giá trị = 0
+Biến $variable2 sau khi ép sang string có giá trị = rỗng
+Biến $variable2 sau khi ép sang boolean có giá trị = false
+
+
+Biến $variable3 sau khi ép sang int có giá trị = 0
+Biến $variable3 sau khi ép sang float có giá trị = 0
+Biến $variable3 sau khi ép sang string có giá trị = rỗng
+Biến $variable3 sau khi ép sang boolean có giá trị = false
+
+
+Biến $variable4 sau khi ép sang int có giá trị = 0
+Biến $variable4 sau khi ép sang float có giá trị = 0
+Biến $variable4 sau khi ép sang string có giá trị = abc123
+Biến $variable4 sau khi ép sang boolean có giá trị = true
+
+
+echo "Biến $variable5 sau khi ép sang int có giá trị = 0
+echo "Biến $variable5 sau khi ép sang float có giá trị = 0
+echo "Biến $variable5 sau khi ép sang string có giá trị = null
+echo "Biến $variable5 sau khi ép sang boolean có giá trị = true
