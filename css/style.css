@@ -1,0 +1,24 @@
+.form-control:focus {
+	box-shadow: none;
+}
+
+.container {
+	width: 50%;
+	background: #f8f9fa;
+}
+
+.style-form {
+	padding: 15px 0px 50px 0px;
+}
+
+#result {
+	color: blue;
+	padding-top: 20px;
+	line-height: 35px;
+}
+
+@media (max-width: 1023px) {
+	.container {
+		width: 100%;
+	}
+}
